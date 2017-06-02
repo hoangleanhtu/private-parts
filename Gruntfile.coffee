@@ -29,7 +29,7 @@ module.exports = (grunt) ->
     uglify:
       dist:
         src: 'assets/js/framework/*.js'
-        dest: 'assets/js/js.min.js'
+        dest: 'build/js/js.min.js'
 
     jade:
       compile:

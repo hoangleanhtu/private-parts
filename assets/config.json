@@ -28,11 +28,11 @@
   "shared": [
     {
       "name": "Our Partners",
-      "description": "Restaurants & Coffee shops in our system that you order.",
+      "description": "Restaurants & Coffee shops join our system.",
       "emptyText": "We DON'T share your information with them.",
       "class": "data-resellers",
       "options": [
-        "They are restaurants & coffee shops in our system. We only share your information when you order their food and receive promotions and sale."
+        "We only share your information when you order their food and receive promotions and sale."
       ]
     },
     {
