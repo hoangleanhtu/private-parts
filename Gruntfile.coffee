@@ -37,15 +37,15 @@ module.exports = (grunt) ->
           data: appConfig
           pretty: true
         files:
-          'build/html/main.html': ['assets/main.jade']
-          'build/html/index.html': ['assets/index.jade']
+          'build/main.html': ['assets/main.jade']
+          'build/index.html': ['assets/index.jade']
       release:
         options:
           data: appConfig
           pretty: false
         files:
-          'build/html/main.html': ['assets/main.jade']
-          'build/html/index.html': ['assets/index.jade']
+          'build/main.html': ['assets/main.jade']
+          'build/index.html': ['assets/index.jade']
 
     requirejs:
       css: options:
@@ -82,15 +82,15 @@ module.exports = (grunt) ->
     smoosher:
       main:
         files:
-          'dist/main.html': 'build/html/main.html'
-          'dist/index.html': 'build/html/index.html'
+          'dist/main.html': 'build/main.html'
+          'dist/index.html': 'build/index.html'
 
     autoshot:
       normal:
         options:
           path: 'dist/'
           local:
-            path: 'build/html/'
+            path: 'build/'
             port: 9002
             files: [{
               src: 'main.html'
